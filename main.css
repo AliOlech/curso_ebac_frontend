@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    background-color: #33ccbf;
+    padding: 16px 0;
+    color: #fff;
+    display: flex;
+    border-bottom: 16px solid #266f72;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+li {
+    background-color: #efe1f7;
+    padding: 24px 0;
+    text-align: center;
+}
+
+input, button {
+    padding: 8px;
+}
+
+button {
+    background-color: #7348ac;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.nova-tarefa {
+    color: #000000;
+    text-decoration: none;
+}
+
+ul li:hover .nova-tarefa {
+    opacity: 1;
+}
